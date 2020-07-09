@@ -1,0 +1,38 @@
+Html Chapter 3 - "Lists"
+    -There are three types of HTML lists: ordered, unordered, and definition.
+    -Ordered lists use numbers.
+    -Unordered lists use bullets.
+    -Definition lists are used to define terminology.
+    -Lists can be nested inside one another.
+    -Nested lists, you can put a second list inside an <li> element to create a sub-list or nested list. browsers display nested lists indented further than the parent list. In nested unordered lists, the browser will usually change the style of the bullet point too.
+    -Definition lists, the definition list is created with <d1> element and usually consists of a series of terms and their definitions. the <dt> is used to contain the term being defined. <dd> is used for the definition of said list.
+CSS Chapter 13 - "Boxes"
+    -CSS treats each HTML element as if it has its own box.
+    -You can use CSS to contol the dimensions of a box.
+    -You can also control the borders, margins and padding for each box with CSS.
+    -It is possible to hide elements using the display and visibility properties.
+    -Block-level boxes can be made into inline boxes, and inline boxes made into block-level boxes. 
+    -Legibility can be improved by controlling the width of boxes containing text and the leading.
+    -CSS3 has introduced the ability to create image borders and rounded borders.
+    -Box dimensions, by default a box is sized just big enough to hold its contents. To set your own dimensions for a box you can use the height and width properties. The most popular ways to specify the size of a box are to use pixels, percentages, or ems.
+    -Limiting width, some page designes expand and shrink to fit the size of the user's screen. In such designs, the min-width property specifies the smallest size a box can be displayed at when the browser window is narrow, and the max-width property indicates the maximum width a box can stretch to when the browser window is wide.
+    -Limiting height, in the same way that you might want to limit the width of a box on a page, you may also want to limit the height of it. This is achieved using the min-height and max-height properties.
+    -Overflowing content, the overflow property tells the browser what to do if the content contained within a box is larger than the box itself. It can have one of two values: Hidden, this property simply hides any extra content that does not fit in the box. Scroll, this property adds a scrollbar to the box so that users can scroll to see the missing content.
+    -Border width, The border width property is used to control the width of a border. The value of this property either be given in pixels or using one of the following values: thin, medium, thick.
+    -Padding, the padding property allows you to specify how much space should appear between the content of an element and its border.
+    -Margin, the margin property controls the gap between boxes. Its value is commonly given in pixel, although you may also use percentages or ems.
+    -Elliptical shapes, to create more complex shapes, you can specify different distances for the horizontal and the verticle parts of the rounded corners.
+    -Hiding boxes, the visibility property allows you to hide boxes from users but it leaves a spave where the element would have been.
+JavaScript Chapter 4 - "Decisions and Loops"
+    -Conditional statements allow your code to make decisions about what to do next.
+    -Comparison operators (===, !==, ==, !=, <, >, <=, =>) are used to compare two operands.
+    -Logical operators allow you to combine more than one set of comparison operators.
+    -if... else statements allow you to run one set of code if a condition is true, and another if it is false.
+    -switch statements allow you to compare a value against possible outcomes (and also provides a default option if none match).
+    -Data types can be coerced from one type to another.
+    -All values evaluate to either truthy or falsy.
+    -There are three types of loop: for, while, and do...while. Each represents a set of statements.
+    -Switch statements, a switch statement starts with a variable called the switch value. Each case indicates a possible value for this variable and the code that should run if the variable matches that value.
+    -Loops, loops check a condition. If it returns true, a code block will run. The condition will be checked again and if it still returns true, the code block will run again. It repeats until the condition returns false. There are three types of loops: for, while, do while.
+    -Keywords, you will commonly see two keywords with loops: Break, this keyword causes the termination of the loop and tells the interpreter to go onto the next statement of code outside of the loop; Continue, this keyword tells the interpreter to stop the current iteration, and then update and check the condition again.
+    -Loops & Arrays, Loops are very helpful when dealing with arrays if you want to run the same code for each item in the array.
