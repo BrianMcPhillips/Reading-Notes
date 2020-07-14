@@ -1,0 +1,41 @@
+"Understanding the problem domain is the hardest part of programming"
+    -Some of the hardest things to learn about software programming are: Learning a new technology, Naming things, Testing code, Debugging, Fixing bugs, Making software maintainable, and most importantly learning the problem domain.
+    -The problem domain refers to the area that encompasses real-world things and concepts related to the problem that the system is being designed to solve.
+    -The author teaches the same app at different levels to remove the idea of the problem domain so users of his course can focus on one domain to compare and contrast different technologies. Removing the problem domain, or making it so trivial that it is easily understood, he is able to make both teaching and learning much easier.
+    -Writing code is a lot like putting together a jigsaw puzzle. We put together code with the purpose of building components that we have taken out of the "bigger picture" of the problem domain.
+    -The big issue is that many problem domains are like a puzzle with a blurrly picture or no picture at all.
+    -Many of the problem domains we face as programmers are difficult to understand and look completely different depending on your viewpoint.
+    -Programmers are also often not given complete information about the problem domain, so we don't have the information we need to understand it.
+    -It is very difficult to to solve a problem before you know the question. It's like buzzing Jeopardy before you hear the clue and shouting out random questions.
+    -Making the problem domain easier and getting better at understanding the problem domain will make programming easier. You can often make the problem domain easier by cutting out cases and narrowing your focus to a particular part of the problem.
+    -It is often beneficial to to take a part of the problem and fully understand that part before expanding the problem domain.
+    -Make sure you talk with customers and business owners and be sure you understand the problem inside and out before you try and solve it with code. It is much more expensive and time consuming to do things over than it is to do them right the first time. 
+JavaScript Chapter 3 - "Object Literals"
+    -Functions allow you to group a set of related statements together that represent a single task.
+    -Functions can take parameters (information required to do their job) and may return a value.
+    -An object is a series of variables and functions that represent something form the world around you.
+    -In an object, vairables are known as properties of the object; functions are known as methods of the object.
+    -Web browsers implement objects that represent both the browser window and the document loaded into the browser window.
+    -JavaScript also has several built-in objects such as String, Number, Math and Date. Their properties and methods offer functionality that help you write scripts.
+    -Arrays and objects can be used to create complex data sets (and both can contain the other).
+    -Objects group together a set of variables and functions to create a model of something you would recognize from the real world. In an object, vairables and functions take on new names.
+    -In an object variables become known as properties, in an object, functions become known as methods. 
+    -Creating an object: literal notation, literal notation is the easiest and most popular way to create objects. 
+    -Accessing an object and dot notation, you can access the properties or methods of an object using dot notation. You can also access properties using square brackets. 
+JavaScript Chapter 5 - "Document Object Model"
+    -The browser represents the page using a DOM tree.
+    -DOM trees have four types of nodes: document nodes, element nodes, attribute nodes, and text nodes.
+    -You can select element nodes by their id or class attributes, by tag name, or using CSS selector syntax.
+    -Whenever a DOM query can return more that one node, it will always return a NodeList.
+    -From an element node, you can access and update its content using properties such as textContent and innerHTML or using DOM manipulation techniques.
+    -An element node can contain multiple text nodes and child elements that are siblings of each other.
+    -In older browsers, implementaion of the DOM is inconsistent (and is a popular reason for using jQuery).
+    -Browsers offer tools for viewing the DOM tree. 
+    -The Dom tree is a model of the web page. As a browswer loads the web page, it creates a model of that page. The model is called a DOM tree, and it is stored in the browsers memory.
+    -Working with the DOM tree, Accessing and updating the DOM tree involves two steps. 1. Locate the node that represents the element you want to work with. 2. Use its text content, child elements, and attributes.
+    -Caching dom queries, methods that find elements in the DOM tree are called DOM queries. When you need to work with an element more than once, you should use a variable to store the result of this query.
+    -When people talk about storing elements in variables, they are really storing the location of the element(s) within the DOM tree in a variable. The properties and methods of that element node work on the variable.
+    -Accessing elements, DOM queries may return one element, or they may return a NodeList, which is a collection of nodes. 
+    -Methods that select individual elements, getElementByID() and querySelector() can both search an entire document and return individual elements. Both use a similiar syntax. Selecting Elements by using ID attributes
+    -Nodelists: DOM queries that return more than one element, when a DOM method can return more than one element, it returns a NodeList (even if it only finds one matching element);
+    -Selecting an element from a nodelist, there are two ways to select an element from a NodeList: The item() method and array syntax. Both require the index number of the element you want.
