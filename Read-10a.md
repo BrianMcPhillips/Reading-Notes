@@ -1,0 +1,19 @@
+CSS Chapter 15 - "Layout"
+    -Controlling the position of elements, CSS has positioning schemes that allow you to control the positioning of the page. 
+    -Normal flow, every block level element appears on a new line, causing each item to appear lower down on the page than the previous one. Even if you specify the width of the boxes and there is space for each element to sit side by side, they will not appear next to each other. 
+    -Relative positioning, this moves an element from the position it would be in normal flow, shifting it to the top right bottom or left where it would have been placed. 
+    -Absolute positioning, this positions the element in relation to its containing element. It is taken out of normal flow meaning that it does not affect the position of any surrounding elements. Absolutely positioned elements move as the user scrolls up and down the page.
+    -When you use relative fixed or absolute positioning boxes can overlap. If boxes overlap the elements that appear later in the HTML code sit on top of those that are earlier in the page.
+    -Floating elements, the float property allows you to take an element in normal flow and place it as far left or right in the containing element as possible. Anything else that sits inside of the containing element will flow around the element that is floated. When you use the float property, you should also use the width property indicating how wide the floating element should be.
+    -Fixed width layouts do not change size as the user increases or decreases the browser window.
+    -Liquid Layouts, stretch and contract as the user increases or decreases the browser window.
+    -<div> elements are often used as containing elements to group together sections of a page. 
+    -Using float to place elements side by side, a lot of layouts place boxes right next to each other the float property is commonly used to achieve this. When elements are floated the height of the boxes can affect where the elements sit. 
+    -Browsers display pages in normal flow unless you specify relative, absolute, or fixed postioning.
+    -The float property moves content to the left or right of the page and can be used to create multi-column layouts (Floated items require a defined width.)
+    -The float property moves content to the left or right of the page and can be used to create multi-column layouts. (Floated items require a defined width.)
+    -Pages can be fixed width or liquid (stretchy) layouts.
+    -Designers keep pages within 960-1000 pixels wide, and indicate what the site is about within the top 600 pixels (to demonstrate its relevance without scrolling).
+    -Grids help create professional and flexible designs.
+    -CSS framworks provide rules for common tasks.
+    -You can include multiple CSS files in one page.
